@@ -94,10 +94,11 @@ body {
       height: 5px;
       background-color: #d8d2da;
       cursor: pointer;
-      margin-left: 10px;
-      z-index: 200; }
+      margin-left: 10px; }
+      @media screen and (max-width: 992px) {
+        .wrapper .player .player__volume {
+          display: none; } }
       .wrapper .player .player__volume .player__volume--bar {
-        z-index: 199;
         height: 5px;
         cursor: pointer;
         background-color: #cb73d6;
@@ -117,6 +118,9 @@ body {
       bottom: 8px;
       left: 9%;
       font-size: 12px; }
+      @media screen and (max-width: 992px) {
+        .wrapper .player .player__icon {
+          display: none; } }
   .wrapper .list {
     overflow: auto;
     font-family: 'Poppins', sans-serif;

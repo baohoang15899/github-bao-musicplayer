@@ -111,9 +111,10 @@ body{
             background-color: rgb(216, 210, 218);
             cursor: pointer;
             margin-left: 10px;
-            z-index: 200;
+            @media screen and (max-width: 992px) {
+                display: none;
+              }
             .player__volume--bar{
-                z-index: 199;
                 height: 5px;
                 cursor: pointer;
                 background-color: rgb(203, 115, 214);
@@ -137,6 +138,9 @@ body{
             bottom: 8px;
             left: 9%;
             font-size: 12px;
+            @media screen and (max-width: 992px) {
+                display: none;
+              }
         }
     }
     .list{
