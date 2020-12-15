@@ -218,6 +218,6 @@ volumeBar.addEventListener("click",(attr)=>{
     // let percentage = target/volumeBar.clientWidth
     // song.volume= percentage*1
     // volume.style.width = (song.volume)*100+"%"
-    alert("ok")
+    alert("ok ")
 })
 app.init()
