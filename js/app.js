@@ -63,7 +63,7 @@ let app = {
     }
 }
 //default
-volume.style.width = (song.volume / 1)*100 +"%"
+// volume.style.width = (song.volume / 1)*100 +"%"
 list[counter].classList.add("color")
 totalTime.innerText =  songs[counter].duration
 //play the song
