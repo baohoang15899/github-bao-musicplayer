@@ -63,8 +63,8 @@ let app = {
     }
 }
 //default
-console.log(song.volume);
 // volume.style.width = (song.volume)*100 +"%"
+volumeBar.value = song.volume*100
 list[counter].classList.add("color")
 totalTime.innerText =  songs[counter].duration
 //play the song
@@ -229,5 +229,4 @@ function volumeChange() {
         song.volume = percentage
     })
 } 
-console.log(volumeBar.clientWidth);
 app.init()

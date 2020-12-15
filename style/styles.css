@@ -71,7 +71,7 @@ body {
         height: 5px;
         cursor: pointer; }
         .wrapper .player .player__duration .player__duration--bar .player__bar--progress {
-          background-color: #cb73d6;
+          background-color: #0075ff;
           height: 5px;
           width: 0%;
           max-width: 100%;
@@ -89,17 +89,10 @@ body {
       position: absolute;
       bottom: 15px;
       left: 46px;
-      border-radius: 15px;
       width: 135px;
       height: 5px;
-      background-color: #d8d2da;
       cursor: pointer;
       margin-left: 10px; }
-      .wrapper .player .player__volume .player__volume--bar {
-        height: 5px;
-        background-color: #cb73d6;
-        width: 0%;
-        border-radius: 15px; }
     .wrapper .player .player__shuffle {
       position: absolute;
       bottom: 5px;

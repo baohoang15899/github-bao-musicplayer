@@ -81,7 +81,7 @@ body{
                 height: 5px;
                 cursor: pointer;
                 .player__bar--progress{
-                    background-color: rgb(203, 115, 214);
+                    background-color: #0075ff;
                     height: 5px;
                     width: 0%;
                     max-width: 100%;
@@ -105,21 +105,22 @@ body{
             position: absolute;
             bottom: 15px;
             left:46px;
-            border-radius: 15px;
+            // border-radius: 15px;
             width: 135px;
             height: 5px;
-            background-color: rgb(216, 210, 218);
+            // background-color: rgb(216, 210, 218);
             cursor: pointer;
             margin-left: 10px;
             // @media screen and (max-width: 992px) {
             //     display: none;
             //   }
-            .player__volume--bar{
-                height: 5px;
-                background-color: rgb(203, 115, 214);
-                width: 0%;
-                border-radius: 15px;
-            }
+            // .player__volume--bar{
+            //     height: 5px;
+            //     cursor: pointer;
+            //     background-color: rgb(203, 115, 214);
+            //     width: 0%;
+            //     border-radius: 15px;
+            // }
         }
         .player__shuffle{
             position: absolute;
