@@ -63,7 +63,8 @@ let app = {
     }
 }
 //default
-// volume.style.width = (song.volume / 1)*100 +"%"
+console.log(song.volume);
+// volume.style.width = (song.volume)*100 +"%"
 list[counter].classList.add("color")
 totalTime.innerText =  songs[counter].duration
 //play the song
@@ -215,12 +216,18 @@ let removeColor = () =>{
 
 //Volume change
 function volumeChange() {
-    volumeBar.addEventListener("click",(attr)=>{
-        let target = attr.offsetX 
-        let percentage = target/volumeBar.clientWidth
-        song.volume= percentage*1
-        volume.style.width = (song.volume.toFixed(1))*100+"%"
+    volumeBar.addEventListener("change",(attr)=>{
+        // let target = parseInt(attr.offsetX) 
+        // console.log(target);
+        // let percentage = parseInt(target/volumeBar.clientWidth)
+        // console.log(percentage);
+        // song.volume= percentage*1
+        // console.log(song.volume.toFixed(1));
+        // volumeBar.value = (song.volume.toFixed(1))*100+"%"
+        let target = volumeBar.value
+        let percentage = (target/volumeBar.clientWidth)
+        song.volume = percentage
     })
 } 
-
+console.log(volumeBar.clientWidth);
 app.init()
