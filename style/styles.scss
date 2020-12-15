@@ -111,9 +111,9 @@ body{
             background-color: rgb(216, 210, 218);
             cursor: pointer;
             margin-left: 10px;
-            @media screen and (max-width: 992px) {
-                display: none;
-              }
+            // @media screen and (max-width: 992px) {
+            //     display: none;
+            //   }
             .player__volume--bar{
                 height: 5px;
                 cursor: pointer;
@@ -138,9 +138,9 @@ body{
             bottom: 8px;
             left: 9%;
             font-size: 12px;
-            @media screen and (max-width: 992px) {
-                display: none;
-              }
+            // @media screen and (max-width: 992px) {
+            //     display: none;
+            //   }
         }
     }
     .list{
