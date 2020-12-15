@@ -114,6 +114,12 @@ body {
       bottom: 8px;
       left: 9%;
       font-size: 12px; }
+    @media screen and (max-width: 992px) {
+      .wrapper .player__icon {
+        display: none; } }
+    @media screen and (max-width: 992px) {
+      .wrapper .player__volume {
+        display: none; } }
   .wrapper .list {
     overflow: auto;
     font-family: 'Poppins', sans-serif;
