@@ -97,7 +97,6 @@ body {
       margin-left: 10px; }
       .wrapper .player .player__volume .player__volume--bar {
         height: 5px;
-        cursor: pointer;
         background-color: #cb73d6;
         width: 0%;
         border-radius: 15px; }
