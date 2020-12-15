@@ -94,8 +94,10 @@ body {
       height: 5px;
       background-color: #d8d2da;
       cursor: pointer;
-      margin-left: 10px; }
+      margin-left: 10px;
+      z-index: 200; }
       .wrapper .player .player__volume .player__volume--bar {
+        z-index: 199;
         height: 5px;
         cursor: pointer;
         background-color: #cb73d6;
