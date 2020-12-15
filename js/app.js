@@ -59,6 +59,7 @@ let app = {
         pause()
         updateTime()
         nextSong()
+        volumeChange()
     }
 }
 //default
@@ -213,10 +214,13 @@ let removeColor = () =>{
 }
 
 //Volume change
-volumeBar.addEventListener("click",(attr)=>{
-    let target = attr.offsetX 
-    let percentage = target/volumeBar.clientWidth
-    song.volume= percentage*1
-    volume.style.width = (song.volume)*100+"%"
-})
+function volumeChange() {
+    volumeBar.addEventListener("click",(attr)=>{
+        let target = attr.offsetX 
+        let percentage = target/volumeBar.clientWidth
+        song.volume= percentage*1
+        volume.style.width = (song.volume)*100+"%"
+    })
+} 
+
 app.init()
