@@ -219,7 +219,7 @@ function volumeChange() {
         let target = attr.offsetX 
         let percentage = target/volumeBar.clientWidth
         song.volume= percentage*1
-        volume.style.width = (song.volume)*100+"%"
+        volume.style.width = (song.volume.toFixed(1))*100+"%"
     })
 } 
 
