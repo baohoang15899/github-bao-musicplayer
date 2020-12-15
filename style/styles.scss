@@ -135,6 +135,16 @@ body{
             left: 9%;
             font-size: 12px;
         }
+        &__icon{
+            @media screen and (max-width: 992px) {
+                display: none;
+              }
+        }
+        &__volume{
+            @media screen and (max-width: 992px) {
+                display: none;
+              }
+        }
     }
     .list{
         overflow: auto;
